@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinTech Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style/styles.css">
+
+</head>
+
+<body>
+
+    <!--#include virtual='header.html' -->
+    <div id="navbar-container"></div>
+    <section id="contacto" class="padin-section">
+
+        <div class="container">
+            <h2 class="padin-title">Contáctanos</h2>
+            <div class="row g-5">
+                <div class="col-lg-8">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-body p-5">
+                            <h4 class="mb-4">Solicita una Demostración Personalizada</h4>
+                            <form id="contactForm">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="nombre" class="form-label">Nombre Completo *</label>
+                                        <input type="text" class="form-control" id="nombre" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="empresa" class="form-label">Empresa *</label>
+                                        <input type="text" class="form-control" id="empresa" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email *</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="telefono" class="form-label">Teléfono *</label>
+                                        <input type="tel" class="form-control" id="telefono" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="tipoInstitucion" class="form-label">Tipo de Institución
+                                            *</label>
+                                        <select class="form-control" id="tipoInstitucion" required>
+                                            <option value="">Seleccione una opción</option>
+                                            <option value="sofom">SOFOM</option>
+                                            <option value="cooperativa">Cooperativa de Ahorro y Crédito</option>
+                                            <option value="union">Unión de Crédito</option>
+                                            <option value="otro">Otro</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="servicios" class="form-label">Servicios de Interés</label>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="cartera">
+                                                    <label class="form-check-label" for="cartera">
+                                                        Administración de Cartera
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="contratos">
+                                                    <label class="form-check-label" for="contratos">
+                                                        Contratos Automatizados
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="contabilidad">
+                                                    <label class="form-check-label" for="contabilidad">
+                                                        Contabilidad Financiera
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="pld">
+                                                    <label class="form-check-label" for="pld">
+                                                        PLD/EBR
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="reportes">
+                                                    <label class="form-check-label" for="reportes">
+                                                        Reportes Regulatorios
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="mensaje" class="form-label">Mensaje</label>
+                                        <textarea class="form-control" id="mensaje" rows="4"
+                                            placeholder="Cuéntanos sobre tus necesidades específicas..."></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary-custom btn-lg">
+                                            <i class="fas fa-paper-plane me-2"></i>Enviar Solicitud
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card shadow-lg border-0 h-100">
+                        <div class="card-body p-5">
+                            <h4 class="mb-4">Información de Contacto</h4>
+                            <div class="contact-info">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="me-3">
+                                        <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1"></h6>
+                                        <p class="mb-0"><br>Oaxaca<br>México</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="me-3">
+                                        <i class="fas fa-phone fa-2x text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1">Teléfono</h6>
+                                        <p class="mb-0">+52 9511710045<br></p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="me-3">
+                                        <i class="fas fa-envelope fa-2x text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1">Email</h6>
+                                        <p class="mb-0">info@telmexmail.com<br></p>
+                                        <p class="mb-0">davije@gmail.com<br></p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="me-3">
+                                        <i class="fas fa-clock fa-2x text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1">Horario de Atención y Soporte</h6>
+                                        <p class="mb-0">Lunes - Viernes: 9:00 - 17:00<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- Contact Section
+                            <h6 class="mb-3"></h6>
+                            <div class="social-links">
+                                <a href="#" class="btn btn-outline-primary me-2">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-primary me-2">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-primary">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--#include virtual='footer.html' -->
+    <div id="footer-container"></div>
+
+    <script src="./js/navbar.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/contact-form.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
