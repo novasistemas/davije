@@ -61,6 +61,7 @@ body {
 
 .team-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 15px 32px rgba(84, 118, 204, 0.25), 0 3px 8px rgba(0,0,0,0.12);
 }
 
 .team-avatar {
@@ -83,4 +84,28 @@ body {
     font-size: 2rem;
     font-weight: bold;
     color: #193b92;
+}
+
+/* Sombra para las tarjetas de servicios */
+.service-card {
+    box-shadow: 0 4px 16px rgba(43, 87, 199, 0.15), 0 1.5px 4px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    border: 1px solid #e3e6f0;
+    transition: box-shadow 0.3s;
+}
+
+.service-card:hover {
+    box-shadow: 0 15px 32px rgba(84, 118, 204, 0.25), 0 3px 8px rgba(0,0,0,0.12);
+}
+
+/* Sombra para las tarjetas de nosoros */
+.stats-card {
+    box-shadow: 0 4px 16px rgba(43, 87, 199, 0.15), 0 1.5px 4px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    border: 1px solid #e3e6f0;
+    transition: box-shadow 0.3s;
+}
+
+.stats-card:hover {
+    box-shadow: 0 15px 32px rgba(84, 118, 204, 0.25), 0 3px 8px rgba(0,0,0,0.12);
 }
