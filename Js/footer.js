@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <hr class="mt-4 mb-3" style="border-color: var(--accent-blue);">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <p class="mb-0">&copy; 2025 FinTech Solutions. Todos los derechos reservados.</p>
+                    <p class="mb-0">&copy; 2025 FinTech Services. Todos los derechos reservados.</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="mb-0">Hecho con <i class="fas fa-heart text-danger"></i> para el sector financiero mexicano</p>
