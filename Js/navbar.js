@@ -3,7 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const navbarHTML = `
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">FinTech Services</a>
+        <a href="#">
+          <i class="fas fa-heart"></i>
+        </a>
+        <a class="navbar-brand" href="index.html">Financial Core</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>

@@ -1,0 +1,53 @@
+source,target,link_text,type,canonical
+index.html,servicios.html,Conoce Nuestros Servicios,internal,https://www.financialcore.com.mx/
+index.html,contacto.html,Contáctanos,internal,https://www.financialcore.com.mx/
+index.html,index.html,Brand/Home,internal,https://www.financialcore.com.mx/
+index.html,index.html,Inicio,internal,https://www.financialcore.com.mx/
+index.html,servicios.html,Servicios,internal,https://www.financialcore.com.mx/
+index.html,nosotros.html,Nosotros,internal,https://www.financialcore.com.mx/
+index.html,contacto.html,Contacto,internal,https://www.financialcore.com.mx/
+index.html,servicios.html#pld,PLD/EBR,internal,https://www.financialcore.com.mx/
+index.html,servicios.html#testimonial,Casos de Éxito,internal,https://www.financialcore.com.mx/
+index.html,nosotros.html#team,Equipo,internal,https://www.financialcore.com.mx/
+index.html,privacidad.html,Privacidad,internal,https://www.financialcore.com.mx/
+index.html,#,Social/Minilink,internal,https://www.financialcore.com.mx/
+servicios.html,index.html,Brand/Home,internal,https://www.financialcore.com.mx/servicios.html
+servicios.html,index.html,Inicio,internal,https://www.financialcore.com.mx/servicios.html
+servicios.html,servicios.html,Servicios (self),internal,https://www.financialcore.com.mx/servicios.html
+servicios.html,nosotros.html,Nosotros,internal,https://www.financialcore.com.mx/servicios.html
+servicios.html,contacto.html,Contacto,internal,https://www.financialcore.com.mx/servicios.html
+servicios.html,servicios.html#pld,PLD/EBR,internal,https://www.financialcore.com.mx/servicios.html
+servicios.html,servicios.html#testimonial,Casos de Éxito,internal,https://www.financialcore.com.mx/servicios.html
+servicios.html,nosotros.html#team,Equipo,internal,https://www.financialcore.com.mx/servicios.html
+servicios.html,privacidad.html,Privacidad,internal,https://www.financialcore.com.mx/servicios.html
+servicios.html,#,Social/Minilink,internal,https://www.financialcore.com.mx/servicios.html
+nosotros.html,index.html,Brand/Home,internal,https://www.financialcore.com.mx/nosotros.html
+nosotros.html,index.html,Inicio,internal,https://www.financialcore.com.mx/nosotros.html
+nosotros.html,servicios.html,Servicios,internal,https://www.financialcore.com.mx/nosotros.html
+nosotros.html,nosotros.html,Nosotros (self),internal,https://www.financialcore.com.mx/nosotros.html
+nosotros.html,contacto.html,Contacto,internal,https://www.financialcore.com.mx/nosotros.html
+nosotros.html,servicios.html#pld,PLD/EBR,internal,https://www.financialcore.com.mx/nosotros.html
+nosotros.html,servicios.html#testimonial,Casos de Éxito,internal,https://www.financialcore.com.mx/nosotros.html
+nosotros.html,nosotros.html#team,Equipo,internal,https://www.financialcore.com.mx/nosotros.html
+nosotros.html,privacidad.html,Privacidad,internal,https://www.financialcore.com.mx/nosotros.html
+nosotros.html,#,Social/Minilink,internal,https://www.financialcore.com.mx/nosotros.html
+contacto.html,index.html,Brand/Home,internal,https://www.financialcore.com.mx/contacto.html
+contacto.html,index.html,Inicio,internal,https://www.financialcore.com.mx/contacto.html
+contacto.html,servicios.html,Servicios,internal,https://www.financialcore.com.mx/contacto.html
+contacto.html,nosotros.html,Nosotros,internal,https://www.financialcore.com.mx/contacto.html
+contacto.html,contacto.html,Contacto (self),internal,https://www.financialcore.com.mx/contacto.html
+contacto.html,servicios.html#pld,PLD/EBR,internal,https://www.financialcore.com.mx/contacto.html
+contacto.html,servicios.html#testimonial,Casos de Éxito,internal,https://www.financialcore.com.mx/contacto.html
+contacto.html,nosotros.html#team,Equipo,internal,https://www.financialcore.com.mx/contacto.html
+contacto.html,privacidad.html,Privacidad,internal,https://www.financialcore.com.mx/contacto.html
+contacto.html,#,Social/Minilink,internal,https://www.financialcore.com.mx/contacto.html
+privacidad.html,index.html,Brand/Home,internal,https://www.financialcore.com.mx/privacidad.html
+privacidad.html,index.html,Inicio,internal,https://www.financialcore.com.mx/privacidad.html
+privacidad.html,servicios.html,Servicios,internal,https://www.financialcore.com.mx/privacidad.html
+privacidad.html,nosotros.html,Nosotros,internal,https://www.financialcore.com.mx/privacidad.html
+privacidad.html,contacto.html,Contacto,internal,https://www.financialcore.com.mx/privacidad.html
+privacidad.html,servicios.html#pld,PLD/EBR,internal,https://www.financialcore.com.mx/privacidad.html
+privacidad.html,servicios.html#testimonial,Casos de Éxito,internal,https://www.financialcore.com.mx/privacidad.html
+privacidad.html,nosotros.html#team,Equipo,internal,https://www.financialcore.com.mx/privacidad.html
+privacidad.html,privacidad.html,Privacidad (self),internal,https://www.financialcore.com.mx/privacidad.html
+privacidad.html,#,Social/Minilink,internal,https://www.financialcore.com.mx/privacidad.html

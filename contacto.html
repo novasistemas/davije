@@ -2,19 +2,35 @@
 <html lang="es">
 
 <head>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W63CKZ33');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FinTech Services</title>
+    <meta name="description" content="Ponte en contacto con Davije para una demostración personalizada de nuestras soluciones FinTech. Completa el formulario o llámanos hoy." />
+    <title>Servicios en Tecnología Financiera</title>
+    <link rel="canonical" href="https://www.financialcore.com.mx/contacto.html" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./Style/styles.css">
 
 </head>
 
 <body>
 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W63CKZ33"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+     
     <!--#include virtual='header.html' -->
     <div id="navbar-container"></div>
     <section id="contacto" class="padin-section">
@@ -26,28 +42,36 @@
                     <div class="card shadow-lg border-0">
                         <div class="card-body p-5">
                             <h4 class="mb-4">Solicita una Demostración Personalizada</h4>
-                            <form id="contactForm">
+                            <form id="contactForm" method="POST">
+                                <!-- Campo Honeypot para detección de bots (invisible para usuarios) -->
+                                <div class="hp-field" aria-hidden="true" style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; opacity: 0; pointer-events: none;">
+                                    <label for="sitio_web">No llenar este campo si eres humano</label>
+                                    <input type="text" id="sitio_web" name="sitio_web" tabindex="-1" autocomplete="off" value="">
+                                </div>
+                                <!-- Campo de tiempo de llenado para bloquear envíos instantáneos de bots -->
+                                <input type="hidden" id="form_loaded_at" name="form_loaded_at" value="">
+
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <label for="nombre" class="form-label">Nombre Completo *</label>
-                                        <input type="text" class="form-control" id="nombre" required>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" required>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="empresa" class="form-label">Empresa *</label>
-                                        <input type="text" class="form-control" id="empresa" required>
+                                        <input type="text" class="form-control" id="empresa" name="empresa" required>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="email" class="form-label">Email *</label>
-                                        <input type="email" class="form-control" id="email" required>
+                                        <input type="email" class="form-control" id="email" name="email" required>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="telefono" class="form-label">Teléfono *</label>
-                                        <input type="tel" class="form-control" id="telefono" required>
+                                        <input type="tel" class="form-control" id="telefono" name="telefono" required>
                                     </div>
                                     <div class="col-12">
                                         <label for="tipoInstitucion" class="form-label">Tipo de Institución
                                             *</label>
-                                        <select class="form-control" id="tipoInstitucion" required>
+                                        <select class="form-control" id="tipoInstitucion" name="tipoInstitucion" required>
                                             <option value="">Seleccione una opción</option>
                                             <option value="sofom">SOFOM</option>
                                             <option value="cooperativa">Cooperativa de Ahorro y Crédito</option>
@@ -60,19 +84,19 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" id="cartera">
+                                                    <input class="form-check-input" type="checkbox" id="cartera" name="cartera">
                                                     <label class="form-check-label" for="cartera">
                                                         Administración de Cartera
                                                     </label>
                                                 </div>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" id="contratos">
+                                                    <input class="form-check-input" type="checkbox" id="contratos" name="contratos">
                                                     <label class="form-check-label" for="contratos">
                                                         Contratos Automatizados
                                                     </label>
                                                 </div>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" id="contabilidad">
+                                                    <input class="form-check-input" type="checkbox" id="contabilidad" name="contabilidad">
                                                     <label class="form-check-label" for="contabilidad">
                                                         Contabilidad Financiera
                                                     </label>
@@ -80,13 +104,13 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" id="pld">
+                                                    <input class="form-check-input" type="checkbox" id="pld" name="pld">
                                                     <label class="form-check-label" for="pld">
                                                         PLD/EBR
                                                     </label>
                                                 </div>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" id="reportes">
+                                                    <input class="form-check-input" type="checkbox" id="reportes" name="reportes">
                                                     <label class="form-check-label" for="reportes">
                                                         Reportes Regulatorios
                                                     </label>
@@ -96,7 +120,7 @@
                                     </div>
                                     <div class="col-12">
                                         <label for="mensaje" class="form-label">Mensaje</label>
-                                        <textarea class="form-control" id="mensaje" rows="4"
+                                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4"
                                             placeholder="Cuéntanos sobre tus necesidades específicas..."></textarea>
                                     </div>
                                     <div class="col-12">
@@ -116,35 +140,35 @@
                             <div class="contact-info">
                                 <div class="d-flex align-items-center mb-4">
                                     <div class="me-3">
-                                        <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+                                        <i class="fa-solid fa-location-dot fa-2x text-primary"></i>
                                     </div>
                                     <div>
                                         <h6 class="mb-1"></h6>
-                                        <p class="mb-0"><br>Oaxaca<br>México</p>
+                                        <h6 class="mb-1">Oaxaca</h6>
+                                        <p class="mb-0">México<br></p>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center mb-4">
                                     <div class="me-3">
-                                        <i class="fas fa-phone fa-2x text-primary"></i>
+                                        <i class="fa-brands fa-whatsapp fa-2x text-primary""></i>
                                     </div>
                                     <div>
-                                        <h6 class="mb-1">Teléfono</h6>
+                                        <h6 class="mb-1">WhatsApp</h6>
                                         <p class="mb-0">+52 9511710045<br></p>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center mb-4">
                                     <div class="me-3">
-                                        <i class="fas fa-envelope fa-2x text-primary"></i>
+                                        <i class="fa-solid fa-envelope fa-2x text-primary"></i>
                                     </div>
                                     <div>
                                         <h6 class="mb-1">Email</h6>
-                                        <p class="mb-0">info@telmexmail.com<br></p>
-                                        <p class="mb-0">davije@gmail.com<br></p>
+                                        <p class="mb-0">info@financialcore.com.mx<br></p>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center mb-4">
                                     <div class="me-3">
-                                        <i class="fas fa-clock fa-2x text-primary"></i>
+                                        <i class="fa-solid fa-clock fa-2x text-primary"></i>
                                     </div>
                                     <div>
                                         <h6 class="mb-1">Horario de Atención y Soporte</h6>
@@ -153,19 +177,6 @@
                                 </div>
                             </div>
                             <hr>
-                            <!-- Contact Section
-                            <h6 class="mb-3"></h6>
-                            <div class="social-links">
-                                <a href="#" class="btn btn-outline-primary me-2">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="#" class="btn btn-outline-primary me-2">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" class="btn btn-outline-primary">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </div>  -->
                         </div>
                     </div>
                 </div>

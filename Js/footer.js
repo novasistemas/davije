@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
       <div class="container">
             <div class="row g-4">
                 <div class="col-lg-4">
-                    <h5><i class="fas fa-chart-line me-2"></i>FinTech Services</h5>
+                    <h5><i class="fas fa-chart-line me-2"></i>Financial Core</h5>
                     <p class="mb-3">Servicios de Tecnología Especializada en el Sector Financiero. 
                     Automatizando los procesos y el cumplimiento de la normativa.</p>
                     <div class="social-links">
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <hr class="mt-4 mb-3" style="border-color: var(--accent-blue);">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <p class="mb-0">&copy; 2025 FinTech Services. Todos los derechos reservados.</p>
+                    <p class="mb-0">&copy; 2025 Technology Services. Todos los derechos reservados.</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="mb-0">Hecho con <i class="fas fa-heart text-danger"></i> para el sector financiero mexicano</p>
